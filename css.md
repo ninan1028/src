@@ -12,6 +12,12 @@ word-break: normal;
 word-break:break-all;
 ```
 
+- 清除浮动
+```css
+.clearfix {*zoom:1;}
+.clearfix:before,.clearfix:after {display:table;line-height:0;content:"";}
+.clearfix:after {clear:both;}
+
 - 两端对齐
 ```css
 text-align:justify;text-justify:inter-ideogra
